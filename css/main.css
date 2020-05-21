@@ -134,15 +134,15 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
-/*Fixed kell hogy ne rontsa el az f12*/
+
 body#bg-img {
   background: url(../img/background.jpg);
   background-attachment: fixed;
-  background-size: fixed;
+  background-size: cover;
 }
 body#bg-img:after {
   content: "";
-  position: fixed;
+  position: cover;
   top: 0;
   right: 0;
   width: 100%;
